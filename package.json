@@ -2,7 +2,7 @@
   "name": "calculadora",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://amerindia.github.io/calculadora",
+  "homepage": "https://lfbrf.github.io",
   "dependencies": {
     "@babel/runtime": "7.0.0-beta.55",
     "@material-ui/core": "^1.2.1",
