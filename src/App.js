@@ -88,10 +88,10 @@ class App extends Component {
                 Frequência:
               </Typography>
             </Grid>
-            <Grid item xs={12}>
+            <Grid item xs={10}>
               <AppBar position='static'>
                 <Tabs value={this.state.selectedFreq} onChange={this.setFreq}>
-                  {[1, 2, 3, 4, 5, 6, 7].map(freq => (
+                  {[1, 2, 3, 4, 5, 6].map(freq => (
                     <Tab
                       value={freq}
                       label={freq}
@@ -111,8 +111,7 @@ class App extends Component {
 						{this.state.selectedFreq === 4 && <Freq4 {...props} radius={this.state.radius} />}
 						{this.state.selectedFreq === 5 && <Freq5 {...props} radius={this.state.radius} />}
 						{this.state.selectedFreq === 6 && <Freq6 {...props} radius={this.state.radius} />}
-            {this.state.selectedFreq === 7 && <Freq6 {...props} radius={this.state.radius} />}
-          </React.Fragment> : null}
+					</React.Fragment> : null}
 
 					<Grid item xs={12}>
 						<Typography variant="caption" gutterBottom align="center" className={classes.footer}>
